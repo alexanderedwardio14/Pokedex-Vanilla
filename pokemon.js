@@ -66,6 +66,10 @@ function handleSearch() {
         });
 
     } else {
-        
+        filteredPokemons = allPokemons
     }
+
+    displayPokemons(filteredPokemons);
+    
+
 }
